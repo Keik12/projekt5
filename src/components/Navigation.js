@@ -15,7 +15,13 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <a className="disabled">kontakt</a>
+            <a
+              className="disabled"
+              href="#disabled"
+              onClick={(e) => e.preventDefault()}
+            >
+              kontakt
+            </a>
           </li>
         </ul>
       </div>
