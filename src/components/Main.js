@@ -1,14 +1,16 @@
+import Offers from "./Offers";
+
 const Main = () => {
   return (
     <main>
-      <section id="specialist" class="specialist">
-        <div class="container">
-          <h2 class="specialist-h2">Nasi specjaliści</h2>
-          <div class="specialist-details">
-            <div class="circle circle-1"></div>
-            <div class="text-wrapper">
-              <p class="person">Imię Nazwisko [ dział ]</p>
-              <p class="description">
+      <section id="specialist" className="specialist">
+        <div className="container">
+          <h2 className="specialist-h2">Nasi specjaliści</h2>
+          <div className="specialist-details">
+            <div className="circle circle-1"></div>
+            <div className="text-wrapper">
+              <p className="person">Imię Nazwisko [ dział ]</p>
+              <p className="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbvel
                 massa et lacus egestas cursus a non magna. Fusce scelerisque
                 blandit nunc, id malesuada ex lobortis a. Integer felis
@@ -17,11 +19,11 @@ const Main = () => {
               </p>
             </div>
           </div>
-          <div class="specialist-details">
-            <div class="circle circle-2"></div>
-            <div class="text-wrapper">
-              <p class="person">Imię Nazwisko [ dział ]</p>
-              <p class="description">
+          <div className="specialist-details">
+            <div className="circle circle-2"></div>
+            <div className="text-wrapper">
+              <p className="person">Imię Nazwisko [ dział ]</p>
+              <p className="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morb
                 vel massa et lacus egestas cursus a non magna. Fusce scelerisque
                 blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
@@ -32,22 +34,7 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section id="offer" class="offer">
-        <div class="container">
-          <h2 class="offer-h2">Czym zajmuje się nasza firma?</h2>
-          <div class="container-grid">
-            <div class="box new-offer">
-              <p>Usługa 1</p>
-              <div class="dot-new"></div>
-            </div>
-            <div class="box">Usługa 2</div>
-            <div class="box">Usługa 3</div>
-            <div class="box">Usługa 4</div>
-            <div class="box">Usługa 5</div>
-            <div class="box">Usługa 6</div>
-          </div>
-        </div>
-      </section>
+      <Offers />
     </main>
   );
 };

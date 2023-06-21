@@ -1,21 +1,21 @@
 const Navigation = () => {
   return (
-    <nav class="nav">
-      <div class="container nav-container">
-        <span class="nav-span">moja firma</span>
-        <ul class="nav-list">
+    <nav className="nav">
+      <div className="container nav-container">
+        <span className="nav-span">moja firma</span>
+        <ul className="nav-list">
           <li>
-            <a class="specialist-link" href="#specialist">
+            <a className="specialist-link" href="#specialist">
               o nas
             </a>
           </li>
           <li>
-            <a class="offer-link" href="#offer">
+            <a className="offer-link" href="#offer">
               oferta
             </a>
           </li>
           <li>
-            <a class="disabled">kontakt</a>
+            <a className="disabled">kontakt</a>
           </li>
         </ul>
       </div>
