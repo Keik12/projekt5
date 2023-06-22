@@ -1,0 +1,97 @@
+.specialist-h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgba(21, 45, 65, 1);
+  padding: 0 0 60px 0;
+  text-align: center;
+}
+
+.circle {
+  aspect-ratio: 1;
+  height: 197px;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  background: url(../../assets/person1.jpg) center;
+  background-size: 197px;
+  margin: 0 auto 50px;
+}
+
+.person {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.circle-2 {
+  background: url(../../assets/person2.jpg) center;
+  background-size: 197px;
+  margin: 0 auto 50px;
+}
+
+@media only screen and (min-width: 450px) {
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .person {
+    text-align: center;
+  }
+
+  .description {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .specialist-h2 {
+    padding: 0 0 78px 0;
+    text-align: left;
+  }
+
+  .text-wrapper {
+    justify-content: center;
+  }
+
+  .specialist-details {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  .specialist-details:nth-of-type(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+
+  .specialist-details:nth-of-type(even) .person {
+    text-align: right;
+  }
+
+  .circle-1 {
+    margin: 0 60px 0 0;
+  }
+
+  .person {
+    text-align: left;
+  }
+
+  .description {
+    margin: 0;
+    text-align: unset;
+  }
+
+  .circle-2 {
+    margin: 0 0 0 60px;
+  }
+}

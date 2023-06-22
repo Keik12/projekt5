@@ -1,4 +1,4 @@
-export const itemList = [
+export const offersList = [
   {
     id: 0,
     name: "Usługa 1",

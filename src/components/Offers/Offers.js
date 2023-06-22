@@ -1,5 +1,5 @@
-import { itemList } from "../data/data";
-import { SingleOffer } from "./SingleOffer";
+import { offersList } from "../../data/data";
+import { SingleOffer } from "../SingleOffer";
 
 const Offers = () => {
   return (
@@ -7,7 +7,7 @@ const Offers = () => {
       <div className="container">
         <h2 className="offer-h2">Czym zajmuje się nasza firma?</h2>
         <div className="container-grid">
-          {itemList.map((item) => (
+          {offersList.map((item) => (
             <SingleOffer item={item} key={item.id} />
           ))}
         </div>

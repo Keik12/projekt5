@@ -1,0 +1,46 @@
+.nav {
+  height: 50px;
+  background-color: #4e4e4e;
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-span {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+}
+
+.specialist-link,
+.offer-link,
+.disabled {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(241, 241, 241, 1);
+}
+
+.nav-list {
+  display: none;
+}
+
+@media only screen and (min-width: 960px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-list li:nth-of-type(2) {
+    margin: 0 46px;
+  }
+
+  .disabled {
+    cursor: not-allowed;
+  }
+}
