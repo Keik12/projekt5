@@ -10,10 +10,6 @@
   aspect-ratio: 1;
   height: 197px;
   border-radius: 50%;
-}
-
-.circle-1 {
-  background: url(../../assets/person1.jpg) center;
   background-size: 197px;
   margin: 0 auto 50px;
 }
@@ -28,12 +24,6 @@
   font-size: 18px;
   margin-bottom: 50px;
   text-align: justify;
-}
-
-.circle-2 {
-  background: url(../../assets/person2.jpg) center;
-  background-size: 197px;
-  margin: 0 auto 50px;
 }
 
 @media only screen and (min-width: 450px) {
@@ -78,7 +68,7 @@
     text-align: right;
   }
 
-  .circle-1 {
+  .specialist-details:nth-of-type(odd) .circle {
     margin: 0 60px 0 0;
   }
 
@@ -91,7 +81,7 @@
     text-align: unset;
   }
 
-  .circle-2 {
+  .specialist-details:nth-of-type(even) .circle {
     margin: 0 0 0 60px;
   }
 }
